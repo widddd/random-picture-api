@@ -8,3 +8,5 @@ $picpath = "/example/".$num.".jpg";
 //重定位到图片
 die(header("Location: $picpath"));
 ?>
+//本代码来自CSDN，侵删。
+//code from csdn.com.
