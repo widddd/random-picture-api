@@ -4,7 +4,7 @@ $seed = time();
 //获取随机数
 $num = rand(1,10);
 //拼接图片地址
-$picpath = "/example/".$num.".jpg";
+$picpath = "/star-sky-img/".$num.".jpg";
 //重定位到图片
 die(header("Location: $picpath"));
 ?>
